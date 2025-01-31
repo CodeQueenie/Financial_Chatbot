@@ -1,0 +1,49 @@
+# 🔹 Ignore Python-specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🔹 Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# 🔹 Ignore virtual environment & dependencies
+.env
+.venv/
+myenv/
+env/
+Pipfile
+Pipfile.lock
+*.conda
+*.venv
+*.env
+
+# 🔹 Ignore MacOS and Windows system files
+.DS_Store
+Thumbs.db
+
+# 🔹 Ignore Streamlit cache
+.streamlit/
+.streamlit_cache/
+.cache/
+
+# 🔹 Ignore IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 🔹 Ignore Data Files (Optional: If data should not be committed)
+Data/*.csv
+Data/*.xlsx
+Data/*.json
+Data/*.db  # If you use SQLite
+
+# 🔹 Ignore Logs and Debugging Files
+logs/
+*.log
+debug.log
+nohup.out
+
+# 🔹 Ignore Git-related files
+*.orig
