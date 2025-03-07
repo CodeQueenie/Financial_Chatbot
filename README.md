@@ -1,4 +1,4 @@
-# Financial Chatbot
+# Financial Assistant
 
 A streamlined financial application that provides essential financial tools in a user-friendly interface.
 
